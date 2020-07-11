@@ -1,10 +1,22 @@
-# UOD-MAP
+# <img src="D:\SCHOOL\4th Semester\UOD_MAP\UOD_MAP\static\img.jpeg" alt="img" style="zoom: 33%;" /> UOD-MAP
 
-_by Abdulqadir F. Yabo_   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_
+_by Abdulqadir F. Yabo   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_ 
+
+* [About UOD MAP](### About UOD MAP)
+* [Tools and technologies](### TOOLS AND TECHNOLOGIES)
+* [The Software](### THE SOFTWARE)
+* [Getting Started](### Getting Started)
+* [Contribution](#### Contribution)
+
+### About UOD MAP
+
+---
 
 UOD MAP (University of Dunaujvaros MAP) is a project designed to solve a long-term problem we as students have been experiencing over time, which has to do with the challenge in locating various university buildings across UOD campus. The project develops a web application that allows all new, exchange, visiting and existing students of our University with the ability to navigate university buildings with ease and comfort.
 
 ### TOOLS AND TECHNOLOGIES
+
+---
 
 #### Project planning and management
 - Microsoft Project 2019
@@ -24,6 +36,8 @@ Version Control: **Git**
 
 
 ### THE SOFTWARE
+
+---
 
 #### File structure
 
@@ -48,7 +62,7 @@ Version Control: **Git**
 
 
 
-### Description:
+#### Description:
 
 **UOD MAP** folder holds the complete application
 
@@ -88,9 +102,11 @@ Version Control: **Git**
 
 
 
-### Running the Software
+### Getting Started
 
-1. After forking the app from FAMS GitHub repository, the following should be installed on your computer:
+---
+
+1. After forking this repository, the following should be installed on your system:
 - Install node.js
 - Install MySQL server and MySQL workbench using the mysql installer
 
@@ -111,7 +127,7 @@ npm install body-parser
 5. Run the **startserver.bat** file [for windows], Linux users can simply run node **main.js** on terminal. This will start the app on http://localhost:3000
 6. Finally, open a browser and search http://localhost:3000. And that is it!
 
+#### Contribution
 
-
-**THERE IS MUCH ROOM FOR IMPROVEMENTS, FEEL FREE TO CONTRIBUTE :-)**
+**If you can, please contribute by reporting issues, discussing ideas, or submitting pull requests with patches and new features :-)**
 
