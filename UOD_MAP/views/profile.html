@@ -1,0 +1,29 @@
+<!-- This page is an extention of layout page(the html template)
+difined as an extention of layout-->
+
+{% extends 'layout.html' %}
+
+<!-- Add title in title place holder -->
+{% block title %}Profile{% endblock %}
+
+<!-- Add content in body content holder-->
+{% block content %}
+<h2>Profile Page</h2>
+<div>
+    <p>Your account details are below:</p>
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td>{{ account.username }}</td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>{{ account.password }}</td>
+        </tr>
+        <tr>
+            <td>NeptunID:</td>
+            <td>{{ account.neptunID }}</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

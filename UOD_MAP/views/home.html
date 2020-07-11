@@ -1,0 +1,74 @@
+<!-- This page is an extention of layout page(the html template)
+
+difined as an extention of layout-->
+{% extends 'layout.html' %}
+
+<!-- Add title in title place holder -->
+{% block title %}Home{% endblock %}
+
+<!-- Add content in body content holder-->
+{% block content %}
+<h2>Home Page</h2>
+<p style="text-align: center; border-radius: 2%;">Hello {{ username }}, Your location is here and now.&#128205;</p>
+  <div id="floating-panel">
+
+    <!-- Select direction origin -->
+    <b>  From: </b>
+    <select id="start">
+      <option id="poss" value="">My location</option>
+      <option value="46.962583, 18.930499">Semmelweis Hostel</option>
+      <option value="46.961149, 18.931330">Hostel 33</option>
+      <option value="46.960971, 18.930912">Hostel 35</option>
+      <option value="46.960713, 18.930333">Hostel 37</option>
+    </select>
+
+    <!--Select direction destination-->
+    <b>  To: </b>
+    <select id="end">
+      <option value="position">My Destination<br></option>
+      <option value="46.960651,18.933883">F building</option>
+      <option value="46.959489,18.934189">A Building</option>
+      <option value="46.961479, 18.934306">I Building</option>
+      <option value="46.959878, 18.930655">C Building</option>
+      <option value="46.959289, 18.932606">P Building</option>
+      <option value="46.960310, 18.933077">M Building</option>
+      <option value="46.961037, 18.931341">Campus Restaurant</option>
+      <option value="46.960814, 18.930531">Campus Club</option>
+      <option value="46.962583, 18.930499">Semmelweis Hostel</option>
+      <option value="46.961149, 18.931330">Hostel 33</option>
+      <option value="46.960971, 18.930912">Hostel 35</option>
+      <option value="46.960713, 18.930333">Hostel 37</option>
+      <option value="46.960759, 18.927672">Sports Center</option>
+      <option value="46.959188, 18.936498">Hospital</option>
+
+    </select>
+
+    <!--Select travelmode-->
+    <b>Travel Mode: </b>
+    <select id="mode">
+      <option value="DRIVING">Driving</option>
+      <option value="WALKING">Walking</option>
+      <option value="BICYCLING">Bicycling</option>
+      <option value="TRANSIT">Transit</option>
+    </select>
+
+    <!-- Select map style-->
+    <b>Night Mode: </b>
+    <select id="style-selector">
+      <option value="default">Default</option>
+      <option value="night">Night mode</option>
+    </select>
+    </div>
+
+<!-- a div to store the map-->
+    <div id="map"></div>
+
+  <!-- Map source-->
+  <script src="map.js"></script>
+ <!-- GET MAP SERVICES-->
+<!-- Add your api key from google @ https://developers.google.com/maps/gmp-get-started -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=YourAPIKeyhere&callback=initMap">
+  </script>
+
+{% endblock %}
