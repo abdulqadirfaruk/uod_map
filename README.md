@@ -1,12 +1,16 @@
 # <img src="D:\SCHOOL\4th Semester\UOD_MAP\UOD_MAP\static\img.jpeg" alt="img" style="zoom: 33%;" /> UOD-MAP
 
-_by Abdulqadir F. Yabo   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_ 
+_by Abdulqadir F. Yabo   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_
 
-* [About UOD MAP](### About UOD MAP)
-* [Tools and technologies](### TOOLS AND TECHNOLOGIES)
-* [The Software](### THE SOFTWARE)
-* [Getting Started](### Getting Started)
-* [Contribution](#### Contribution)
+
+
+* [About UOD MAP](###About UOD MAP)
+* [Tools and technologies](###TOOLS AND TECHNOLOGIES)
+* [The Software](###THE SOFTWARE)
+* [Getting Started](###Getting Started)
+* [Contribution](####Contribution)
+
+
 
 ### About UOD MAP
 
