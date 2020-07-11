@@ -1,10 +1,10 @@
-# <img src="![img.jpeg](https://github.com/AbdulqadirFY/uod_map/blob/master/UOD_MAP/static/img.jpeg?raw=true)" alt="img" width="50" height="50"/> UOD-MAP
+# <img src="https://github.com/AbdulqadirFY/uod_map/blob/master/UOD_MAP/static/img.jpeg?raw=true" alt="img" width="50" height="50" /> UOD-MAP
 
 _by Abdulqadir F. Yabo   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_
 
 
 
-* [About UOD MAP](###about-uod-map)
+* [About UOD MAP](#about-uod-map)
 * [Tools and technologies](#tools-and-technologies)
 * [The Software](#the-software)
 * [Getting Started](#getting-started)
