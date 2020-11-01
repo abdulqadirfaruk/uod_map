@@ -1,6 +1,6 @@
 # <img src="https://github.com/AbdulqadirFY/uod_map/blob/master/UOD_MAP/static/img.jpeg?raw=true" alt="img" width="50" height="50" /> UOD-MAP
 
-_by Abdulqadir F. Yabo   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_
+_by Abdulqadir F. Yabo   @[AbdulqadirYabo](https://twitter.com/AbdulqadirYabo)_ , Mohammed Abdelhady and others.
 
 
 
